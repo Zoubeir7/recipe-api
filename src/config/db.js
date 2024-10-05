@@ -9,10 +9,7 @@ export const pool = new Pool({
   user: process.env.USE,
   port: parseInt(process.env.PORT),
   password: process.env.PASSWORD,
-  database: process.env.dbNAME,
-  max: parseInt(process.env.CL),
-  idleTimeoutMillis: parseInt(process.env.QL),
-  allowExitOnIdle: process.env.WFC === 'true',
+  database: process.env.dbNAME
 });
 
 const connection = async () => {
