@@ -1,0 +1,4 @@
+node_modules
+.env
+README.Docker.md
+package-lock.json
